@@ -1,5 +1,8 @@
 // TODO: import required modules
 
+import angular from 'angular';
+import _ from 'lodash';
+
 const home = angular.module('home', [
 
 ])
@@ -35,3 +38,4 @@ const home = angular.module('home', [
 });
 
 // TODO: export the module
+export default home;
